@@ -1,0 +1,79 @@
+#fileSystem, #menu {
+    font-family: Arial;
+}
+.folder, .file {
+    display: inline-block;
+    width: 100px;
+    padding-top: 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+#fileSystem p {
+    margin: 1px;
+    display: inline-block;
+    padding: 2px;
+}
+
+.folder {
+        background: url("http://cdn1.iconfinder.com/data/icons/Futurosoft%20Icons%200.5.2/64x64/filesystems/folder_documents.png") no-repeat center top;
+}
+.file {
+        background: url("http://cdn1.iconfinder.com/data/icons/CrystalClear/64x64/mimetypes/unknown.png") no-repeat center top;
+}
+.file.txt {
+    
+}
+
+#fileSystem .selected p {
+   border-radius: 4px;
+   background: #009;
+   color: #FFF;
+}
+
+.inputBox {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.3em;
+}
+.controls, .controls li {
+    margin: 0;
+    padding: 0;
+}
+.back {
+    width: 64px;
+    height: 64px;
+    background: url("http://cdn1.iconfinder.com/data/icons/dot/64/arrow_left.png");
+}
+/*
+#fileSystem p.selected {
+    -moz-box-shadow:  0px 0px 5px #75bceb;
+    -webkit-box-shadow:  0px 0px 5px #75bceb;
+    box-shadow: 0px 0px 5px #75bceb;
+    border-radius: 4px;
+    border: 1px solid rgba(177,188,235,0.5);
+    margin: 0;
+}*/
+
+
+#menu {
+    background: #fff;
+    width: 200px;
+    position: absolute;
+    border: 1px solid #000;
+}
+#menu li a {
+    display: inline-block;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    background: #009;
+    color: #FFF;
+}
+#fileSystem ul li input[type=text] {
+    display: inline-block;
+}​
